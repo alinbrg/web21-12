@@ -1,0 +1,253 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.text {
+	font-family: "BPG Banner Caps", sans-serif;
+}
+
+header li a {
+	color: white;
+	text-decoration: none;
+	font-family: "BPG Banner Caps", sans-serif;
+}
+header {
+	background-color: #0020f4;
+	width: 100%;
+	color: white;
+}
+
+.header-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 150px;
+	/* padding-left: 200px;
+    padding-right: 200px; */
+	max-width: 1400px;
+	width: 96%;
+	margin: auto;
+}
+
+.navigation ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	background-color: white;
+	color: black;
+	border-radius: 25px;
+	padding: 15px 25px;
+	font-family: "BPG Banner Caps", sans-serif;
+}
+
+.photo-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.middle-text {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	text-align: center;
+}
+
+.big-photo {
+	max-width: 100%;
+	/* margin-left: 300px; */
+	margin-top: -100px;
+}
+
+.small-photo {
+	max-width: 17%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	gap: 20px;
+	padding-bottom: 30px;
+}
+
+.main-section {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+.text-h3 {
+	align-self: flex-start;
+	font-family: "BPG Banner Caps", sans-serif;
+}
+
+.button-one {
+	background-color: #0020f4;
+	color: white;
+	font-family: "BPG Banner Caps", sans-serif;
+	border-radius: 20px;
+	border: none;
+	padding: 10px 50px;
+}
+
+footer {
+	background-color: #0020f4;
+	color: white;
+	padding-top: 40px;
+	margin-top: 50px;
+}
+
+.footer-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-info > h4 {
+	width: 400px;
+}
+
+.top-info {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	gap: 40px;
+}
+
+.bottom-info {
+	display: flex;
+	justify-content: space-between;
+	max-width: 600px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	/* padding-left: 180px; */
+}
+
+.phone,
+.meil {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.phone-logo,
+.meil-logo {
+	width: 30px;
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.form-line {
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+.big-box {
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-bottom: 3px solid #394bf1;
+	background-color: #0a22f4;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	padding-top: 100px;
+}
+
+.button-two {
+	width: 30%;
+	align-self: self-end;
+	font-family: "BPG Banner Caps", sans-serif;
+	border-radius: 25px;
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.last-line {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	max-width: 1400px;
+	width: 96%;
+	margin: auto;
+	align-items: center;
+}
+
+.right-end-line {
+	display: flex;
+	align-items: center;
+}
+
+.menu-logo {
+	display: none;
+}
+
+@media (width<=1024px) {
+	body {
+		max-width: 100%;
+		margin-right: 0;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.big-photo {
+		/* margin-left: 200px; */
+	}
+
+	.container {
+		/* margin-left: 200px; */
+	}
+	form {
+		width: 100%;
+		padding: 0 16px;
+	}
+
+	iframe {
+		width: 100%;
+	}
+	.top-info {
+		max-width: unset;
+	}
+	.two {
+		display: none;
+	}
+
+	.footer-info {
+		display: flex;
+		flex-direction: column-reverse;
+		/* padding-left: 300px; */
+	}
+
+	.three {
+		display: none;
+	}
+
+	.button-two {
+		margin-bottom: 20px;
+	}
+
+	.menu-logo {
+		display: block;
+		margin: auto;
+	}
+}
